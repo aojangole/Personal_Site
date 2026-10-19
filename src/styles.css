@@ -46,6 +46,7 @@ h1{font:800 clamp(2.8rem,7vw,5.2rem)/.98 var(--display);letter-spacing:-.03em;ma
 
 section{padding:4rem 0;border-top:1px solid var(--line)}
 h2{font:800 clamp(1.8rem,4vw,2.5rem)/1.1 var(--display);letter-spacing:-.02em;margin:0 0 1.5rem}
+.portrait{display:block;width:100%;max-width:15rem;height:auto;aspect-ratio:1;object-fit:cover;border-radius:10px;border:1px solid var(--line);margin:0 0 1.5rem}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
 .cols p{margin:0 0 1rem;max-width:36rem}
 dl{margin:0;display:grid;gap:.6rem}

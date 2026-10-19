@@ -15,10 +15,9 @@ export default function Contact() {
         <h2>Let’s talk</h2>
         <p>Based in {profile.location}. WhatsApp is the fastest way to reach me.</p>
         <div className="btns">
-          <a className="btn primary" href={links.whatsapp}>WhatsApp {contact.phoneDisplay}</a>
+          <a className="btn primary" href={links.whatsapp}>WhatsApp {contact.whatsappDisplay}</a>
           <a className="btn" href={links.email}>{contact.email}</a>
-          <a className="btn" href={links.sms}>Send a text</a>
-          <a className="btn" href={links.call}>Call</a>
+          <a className="btn" href={links.call}>Call {contact.callDisplay}</a>
           {contact.github && <a className="btn" href={contact.github} target="_blank" rel="noreferrer">GitHub</a>}
           {contact.linkedin && <a className="btn" href={contact.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>}
         </div>

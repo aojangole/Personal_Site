@@ -6,6 +6,7 @@ export default function About() {
       <h2>About me</h2>
       <div className="cols">
         <div>
+          <img className="portrait" src="/ariko.jpg" width="720" height="720" alt="Ariko smiling in a blue polo shirt and grey cap" />
           {about.map((p) => (
             <p key={p.slice(0, 20)}>{p}</p>
           ))}

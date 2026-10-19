@@ -10,8 +10,10 @@ export const profile = {
 
 export const contact = {
   email: "arikolojangole@gmail.com",
-  phone: "+256705997171",
-  phoneDisplay: "+256 705 997171",
+  whatsapp: "+256705997171",
+  whatsappDisplay: "+256 705 997171",
+  call: "+256775501839",
+  callDisplay: "+256 775 501839",
   whatsappMessage: "Hi Ariko, I saw your portfolio and would like to talk.",
   // Add these when you have them, then they appear automatically:
   github: "",
